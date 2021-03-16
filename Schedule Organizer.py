@@ -2,7 +2,7 @@ import random
 import math
 def weekly_scheduler():
 
- Tarefas = input("Weekly Scheduler, press enter...")
+ Weekly_scheduler = input("Weekly Scheduler, press enter...")
  Taskers = ["Rogerio","Marilia","Moncarcha","Lopes","Gui","Valter","Kika"]; 
  random.shuffle(Taskers)
  Functions =[None]*len(Taskers); 
